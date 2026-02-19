@@ -168,7 +168,7 @@ const App: React.FC = () => {
       <footer className="bg-white border-t border-zinc-200 py-12 px-4">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
           <div className="text-center md:text-left">
-            <h2 className="font-serif text-xl font-bold mb-2">Grand Stay Hotel & Spa</h2>
+            <h2 className="font-serif text-xl font-bold mb-2">SRM Hotel & Spa</h2>
             <p className="text-zinc-500 text-sm">Room Service Boutique • Open 24/7</p>
           </div>
           <div className="flex gap-8 text-sm font-medium text-zinc-600">

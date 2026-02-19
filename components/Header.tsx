@@ -12,9 +12,9 @@ const Header: React.FC<HeaderProps> = ({ onCartClick, cartCount }) => {
       <div className="max-w-7xl mx-auto px-4 h-16 flex items-center justify-between">
         <div className="flex items-center gap-2">
           <div className="w-8 h-8 bg-zinc-900 flex items-center justify-center rounded-sm">
-            <span className="text-white font-serif font-bold text-lg">G</span>
+            <span className="text-white font-serif font-bold text-lg">S</span>
           </div>
-          <h1 className="font-serif text-xl font-bold tracking-tight text-zinc-900">Grand Stay Boutique</h1>
+          <h1 className="font-serif text-xl font-bold tracking-tight text-zinc-900">SRM Boutique</h1>
         </div>
         
         <button 
