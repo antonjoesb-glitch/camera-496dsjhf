@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Grand Stay Boutique",
+  "description": "An elegant in-hotel online shopping experience with AI-powered concierge recommendations for snacks, amenities, and local souvenirs.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
