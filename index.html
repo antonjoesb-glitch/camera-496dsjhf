@@ -27,6 +27,10 @@
             border-radius: 10px;
         }
     </style>
+    <script>
+        // Shim for process.env to prevent crashes in the browser on static hosts like Netlify
+        window.process = window.process || { env: {} };
+    </script>
 <script type="importmap">
 {
   "imports": {
@@ -40,5 +44,7 @@
 </head>
 <body class="bg-zinc-50 text-zinc-900">
     <div id="root"></div>
+    <!-- Explicitly load the entry point script -->
+    <script type="module" src="./index.tsx"></script>
 </body>
 </html>
